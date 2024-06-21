@@ -1,4 +1,4 @@
-#EmailTextField > .unity-base-text-field__input {
+#EmailText > .unity-base-text-field__input {
     -unity-background-image-tint-color: rgba(255, 255, 255, 0);
     background-color: rgba(0, 0, 0, 0);
     margin-top: 0;
@@ -11,18 +11,31 @@
     padding-left: 0;
     -unity-font-definition: initial;
     -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=3d1f1af3f4bfe99419a5e1f2014a991d&type=3#NotInter-Regular");
-    font-size: 50%;
+    font-size: 130%;
     color: rgb(255, 255, 255);
     -unity-font-style: italic;
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
     -unity-text-align: middle-left;
+    position: absolute;
+    left: 3%;
+    top: 2%;
+    right: auto;
+    bottom: auto;
+    max-width: 540px;
+    max-height: 1200px;
+    min-width: 100px;
+    min-height: 100px;
+    width: 100%;
+    height: 150%;
+    align-self: center;
+    align-items: stretch;
 }
 
-#EmailTextField > .unity-text-field__label {
+#EmailText > .unity-text-field__label {
     -unity-font: url("project://database/Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo.ttf?fileID=12800000&guid=e5c356a4b721b024daa3ce4df25a2a24&type=3#Arvo");
     -unity-font-definition: initial;
     -unity-font-style: normal;
-    font-size: 90%;
+    font-size: 160%;
     margin-top: 0;
     -unity-text-align: middle-center;
     color: rgb(180, 125, 0);
@@ -34,14 +47,23 @@
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 540px;
+    max-height: 1200px;
+    align-items: stretch;
+    align-self: center;
+    min-width: 100px;
+    min-height: 100px;
+    top: -35%;
 }
 
-#PasswordText > .unity-text-field__input {
+#PassText > .unity-text-field__input {
     -unity-background-image-tint-color: rgba(255, 255, 255, 0);
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
     margin-top: 0;
-    font-size: 50%;
+    font-size: 130%;
     -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=3d1f1af3f4bfe99419a5e1f2014a991d&type=3#NotInter-Regular");
     -unity-font-style: italic;
     margin-right: 0;
@@ -53,10 +75,21 @@
     padding-left: 0;
     -unity-text-align: middle-left;
     -unity-font-definition: initial;
+    position: absolute;
+    left: 3%;
+    top: 4%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120%;
+    max-width: 540px;
+    max-height: 1200px;
+    min-width: 100px;
+    min-height: 100px;
 }
 
-#PasswordText > .unity-text-field__label {
-    font-size: 90%;
+#PassText > .unity-text-field__label {
+    font-size: 160%;
     -unity-font-definition: initial;
     -unity-font: url("project://database/Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo.ttf?fileID=12800000&guid=e5c356a4b721b024daa3ce4df25a2a24&type=3#Arvo");
     -unity-text-align: middle-center;
@@ -70,4 +103,21 @@
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 540px;
+    max-height: 1200px;
+    min-width: 100px;
+    min-height: 100px;
+    top: -55%;
+    align-self: center;
+}
+
+#MailPop > .unity-base-text-field__input {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#PassPop > .unity-base-text-field__input {
+    background-color: rgba(0, 0, 0, 0);
 }
