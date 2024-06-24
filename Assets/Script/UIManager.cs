@@ -21,7 +21,7 @@ public class UIManager : MonoBehaviour
     private float easeTimeSeconds = 1.2f;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
         email = root.Q<TextField>("EmailText");
@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
         else
         {
             emailPop.value = "Wrong mail or not reconized";
-            passPop.value = "Wrong password";
+            passPop.value = "Wrong password, try again";
         }
     }
 }
