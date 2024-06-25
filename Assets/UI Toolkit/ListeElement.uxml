@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
+<UXML
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
+    xmlns="UnityEngine.UIElements"
     xmlns:editor="UnityEditor.UIElements"
     xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
 >
     <VisualElement name="root">
+        <Label name="nameLabel" text="Liste" style= "width: 100px; height: 100px; align-self: center; font-size: 35px"/> 
     </VisualElement>
-</engine:UXML>
+</UXML>

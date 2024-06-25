@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe63208780cadd24a8ce23fbb685a0ee, type: 3}
+  m_Name: SpriteSheetInfo
+  m_EditorClassIdentifier: 
+  spriteSheet: {fileID: 2800000, guid: c3cbd015370c5294385a8d880c234850, type: 3}
+  guid: c3cbd015370c5294385a8d880c234850
+  fileIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  sprites:
+  - Steampunk_UI_Frames_3_2
+  - Steampunk_UI_Frames_3_6
+  - Steampunk_UI_Frames_3_3
+  - Steampunk_UI_Frames_3_7
+  - Steampunk_UI_Frames_3_4
+  - Steampunk_UI_Frames_3_1
+  - Steampunk_UI_Frames_3_5

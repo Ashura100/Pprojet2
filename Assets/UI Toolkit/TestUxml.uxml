@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    <VisualElement name="root">
-        <Style scr= "project://database/Assets/Gentleland/SteampunkUI/Art/Background.uss"/>
-        <Label name="nameLabel" text="Admin" style= "width: 100px; height: 35px; align-self: center; font-size: 35px"/>
-        <ListView name="liste" text="liste" style="width: 100px; height: 650px; align-self: center"/>
-        <Button name="Ajouter" text="Ajouter" style= "width:50px; height:15px; align-self: center; margin-top: 300px"/>
-    </VisualElement>
-
-</UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root">
+        <ui:VisualElement name="background" style="width: 100%; height: 100%; min-width: 100px; min-height: 100px; max-width: 540px; max-height: 1200px; top: 25%; align-self: center; background-image: url(&quot;project://database/Assets/Gentleland/SteampunkUI/Art/BackGround.png?fileID=21300000&amp;guid=b464ee8350ce3984aa31ea54d12d9236&amp;type=3#BackGround&quot;);">
+            <ui:VisualElement name="cadre" style="width: 100%; height: 100%; min-width: 100px; min-height: 100px; max-width: 540px; max-height: 1200px; align-self: center; -unity-slice-scale: 2px; background-image: url(&quot;project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Frames_3.png?fileID=113947384412704010&amp;guid=c3cbd015370c5294385a8d880c234850&amp;type=3#Steampunk_UI_Frames_3_4&quot;);">
+                <ui:Label name="nameLabel" text="Admin" style="width: 80%; height: 4%; min-width: 100px; min-height: 100px; max-width: 540px; max-height: 1200px; position: absolute; top: 20%; align-self: center; font-size: 35px;" />
+                <ui:ListView name="liste" text="liste" style="width: 300px; height: 850px; max-height: 9000px; align-self: center;" />
+                <ui:Button name="Ajouter" text="Ajouter" style="width: 35%; height: 6%; min-width: 50px; min-height: 50px; max-width: 540px; max-height: 1200px; align-self: center; position: absolute; top: 80%; -unity-slice-scale: 0.3px; background-image: url(&quot;project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Buttons_2.png?fileID=-1388602495020635306&amp;guid=f85c0b0d6e5acd64185eafcda5d6cba8&amp;type=3#Steampunk_UI_Buttons_2_3&quot;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

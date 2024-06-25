@@ -53,17 +53,22 @@ public class UIManager : MonoBehaviour
         {
             DOTween.To(() => validateSlide, x => validateSlide = x, -110, easeTimeSeconds).SetEase(Ease.OutBounce);
             emailPop.value = "Welcome";
+            email.style.color = Color.green;
             passPop.value = null;
         }
         else if(_email == "Enter text..." && _password == "Enter text...")
         {
             emailPop.value = "Write mail";
+            emailPop.style.color = Color.white;
             passPop.value = "Witre password";
+            passPop.style.color = Color.white;
         }
         else
         {
             emailPop.value = "Wrong mail or not reconized";
+            emailPop.style.color = Color.red;
             passPop.value = "Wrong password, try again";
+            passPop.style.color = Color.red;
         }
     }
 }
