@@ -9,6 +9,10 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField]
     UIDocument uIDocument;
+    [SerializeField]
+    GameObject uiDocument1;
+    [SerializeField]
+    GameObject uiDocument2;
 
     VisualElement root;
     TextField email;
@@ -39,9 +43,9 @@ public class UIManager : MonoBehaviour
     }
 
     private void Clickable_clicked()
-    {
-        Login();
+    {   
         Debug.Log("click");
+        Login();
     }
 
     public void Login()
@@ -51,7 +55,7 @@ public class UIManager : MonoBehaviour
 
         if(_email == "homelander@aol.com" && _password == "john1972")
         {
-            DOTween.To(() => validateSlide, x => validateSlide = x, -110, easeTimeSeconds).SetEase(Ease.OutBounce);
+            DOTween.To(() => validateSlide, x => validateSlide = x, -110, easeTimeSeconds).SetEase(Ease.OutBounce).OnComplete(()=> { uiDocument1.SetActive(false); uiDocument2.SetActive(true); });
             emailPop.value = "Welcome";
             email.style.color = Color.green;
             passPop.value = null;

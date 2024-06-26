@@ -156,7 +156,7 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 47dba219d7242dd45a319b0f481a4eb8,
     type: 3}
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!4 &272732210
 Transform:
   m_ObjectHideFlags: 0
@@ -185,6 +185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uIDocument: {fileID: 272732209}
+  uiDocument1: {fileID: 272732208}
+  uiDocument2: {fileID: 1243438350}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,7 +508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1243438351
 MonoBehaviour:
   m_ObjectHideFlags: 0
