@@ -1,9 +1,53 @@
-#Ajouter{
-	font-size: 30px;
-	color: rgba(180,125,0,1);
-	text-shadow: -4.5px 2px black;
+#background{
+	background-color: rgba(0,0,25,1);
+}
+#uibackground{
+	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/BackGround.png?fileID=21300000&amp;guid=b464ee8350ce3984aa31ea54d12d9236&amp;type=3#BackGround");
 }
 
-#root{
-	background-color: rgba(0,0,25,1);
+#cadre{
+	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Frames_3.png?fileID=113947384412704010&amp;guid=c3cbd015370c5294385a8d880c234850&amp;type=3#Steampunk_UI_Frames_3_4");
+	-unity-slice-scale: 2px;
+}
+
+#fioriture{
+	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Frames_3.png?fileID=0&amp;guid=c3cbd015370c5294385a8d880c234850&amp;type=3#Steampunk_UI_Frames_3_5");
+	-unity-background-scale-mode: scale-to-fit;
+}
+
+#fioriture2{
+	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Frames_3.png?fileID=0&amp;guid=c3cbd015370c5294385a8d880c234850&amp;type=3#Steampunk_UI_Frames_3_6");
+	-unity-background-scale-mode: scale-to-fit;
+}
+
+#fioriture3{
+	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Frames_3.png?fileID=0&amp;guid=c3cbd015370c5294385a8d880c234850&amp;type=3#Steampunk_UI_Frames_3_7");
+	-unity-background-scale-mode: scale-to-fit;
+}
+
+#Admin{
+	-unity-font: url("project://database/Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo.ttf?fileID=12800000&amp;guid=e5c356a4b721b024daa3ce4df25a2a24&amp;type=3#Arvo");
+	font-size: 35px;
+	color: rgba(180,125,0,1);
+	text-shadow: -4.5px 2px black;
+	-unity-text-align: upper-center;
+	-unity-font-definition: initial;
+}
+
+#liste{
+	-unity-font: url("project://database/Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo.ttf?fileID=12800000&amp;guid=e5c356a4b721b024daa3ce4df25a2a24&amp;type=3#Arvo");
+	color: rgba(180,125,0,1);
+	text-shadow: -4.5px 2px black;
+	-unity-text-align: upper-center;
+	-unity-font-definition: initial;
+}
+
+#Ajouter{
+	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Buttons_2.png?fileID=-1388602495020635306&amp;guid=f85c0b0d6e5acd64185eafcda5d6cba8&amp;type=3#Steampunk_UI_Buttons_2_3");
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 30px;
+	-unity-slice-scale: 0.3px; 
+	-unity-text-align: upper-center;
+	color: rgba(180,125,0,1);
+	text-shadow: -4.5px 2px black;
 }

@@ -156,7 +156,7 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 47dba219d7242dd45a319b0f481a4eb8,
     type: 3}
-  m_SortingOrder: 1
+  m_SortingOrder: 2
 --- !u!4 &272732210
 Transform:
   m_ObjectHideFlags: 0
@@ -521,11 +521,11 @@ MonoBehaviour:
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PanelSettings: {fileID: 11400000, guid: f52a7d2d415243942a8e36e2baa16d73, type: 2}
+  m_PanelSettings: {fileID: 11400000, guid: ed90e698aa4bfcf4f9cdf450fba0160a, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: acf222e0e9be70e48b517a601b474d30,
     type: 3}
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!4 &1243438352
 Transform:
   m_ObjectHideFlags: 0
