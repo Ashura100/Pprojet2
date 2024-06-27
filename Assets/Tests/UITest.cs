@@ -34,7 +34,20 @@ public class UITest
         yield return null;
         GameObject go = GameObject.Find("UIDocument");
         UIDocument uIDocument = go.GetComponent<UIDocument>();
-        Button button = uIDocument.rootVisualElement.Q<Button>("Button");
+        Button button = uIDocument.rootVisualElement.Q<Button>("Login");
         Assert.IsNotEmpty(button.text);
+    }
+
+    [UnityTest]
+    public IEnumerator UITestMailPass()
+    {
+        SceneManager.LoadScene(0);
+        yield return null;
+        GameObject go = GameObject.Find("UIDocument");
+        UIDocument uIDocument = go.GetComponent<UIDocument>();
+        TextField mailText = uIDocument.rootVisualElement.Q<TextField>("EmailText");
+        TextField passText = uIDocument.rootVisualElement.Q<TextField>("PassText");
+        Assert.AreEqual(mailText.value, "Enter text...");
+        Assert.AreEqual(passText.value, "Enter text...");
     }
 }

@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
     GameObject uiDocument2;
 
     VisualElement root;
+    VisualElement uiBackground;
     TextField email;
     TextField password;
     TextField emailPop;
@@ -28,6 +29,7 @@ public class UIManager : MonoBehaviour
     void Awake()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
+        uiBackground = root.Q<VisualElement>("UiBackground");
         email = root.Q<TextField>("EmailText");
         emailPop = root.Q<TextField>("MailPop");
         password = root.Q<TextField>("PassText");
@@ -39,7 +41,7 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        root.style.top = Length.Percent(10 + validateSlide);
+        uiBackground.style.top = Length.Percent(10 + validateSlide);
     }
 
     private void Clickable_clicked()
