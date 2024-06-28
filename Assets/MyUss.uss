@@ -45,6 +45,7 @@
 #Ajouter{
 	background-image: url("project://database/Assets/Gentleland/SteampunkUI/Art/Steampunk_UI_Buttons_2.png?fileID=-1388602495020635306&amp;guid=f85c0b0d6e5acd64185eafcda5d6cba8&amp;type=3#Steampunk_UI_Buttons_2_3");
 	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
 	font-size: 30px;
 	-unity-slice-scale: 0.3px; 
 	-unity-text-align: upper-center;

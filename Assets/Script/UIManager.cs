@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
     private float validateSlide;
     private float easeTimeSeconds = 1.2f;
 
-    // Start is called before the first frame update
+    //activation des éléments de l'ui
     void Awake()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
@@ -44,12 +44,15 @@ public class UIManager : MonoBehaviour
         uiBackground.style.top = Length.Percent(10 + validateSlide);
     }
 
+    //fait appel à la fonction login quand on clique sur le bouton
     private void Clickable_clicked()
     {   
         Debug.Log("click");
         Login();
     }
 
+    //prend en compte les mails et mot de passe écrit et si ils correspondent au condition pour se connecter avec des messages d'érreurs
+    //et une animation dotween pour faire disparaitre l'interface si le mail et le mot de passe sont bon
     public void Login()
     {
         string _email = email.text;
